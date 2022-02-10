@@ -40,7 +40,9 @@ public class Game {
     public static void main(String[] args){
         //instanziiert das spiel
         int initalNumberOfSticks = 15; // Für dieses Bsp gewählt, gilt auch für die folgenden Namen
-        Game Spiel = new Game(initalNumberOfSticks, new HumanPlayer("Musterfrau"),new HumanPlayer("Mustermann"));
+        Game Spiel = new Game(initalNumberOfSticks,
+                new HumanPlayer("Musterfrau"),
+                new HumanPlayer("Mustermann"));
         Spiel.play();
     }
 
